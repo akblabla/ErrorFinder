@@ -13,9 +13,84 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\DataAnalyser">
+      <UniqueIdentifier>{ee648e13-bc26-4d85-bc0e-aae40b87c595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataAnalyser">
+      <UniqueIdentifier>{e621df48-9c1a-4cbe-bef7-8f58b489e001}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="TestProjekt.ino" />
   </ItemGroup>
- 
+  <ItemGroup>
+    <ClInclude Include="__vm\.TestProjekt.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ADC_Master\ADC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ADC_Master\ADC_Module.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ADC_Master\atomic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ADC_Master\VREF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExponentialBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Timer\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Timer\Event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashAnalyser.h">
+      <Filter>Header Files\DataAnalyser</Filter>
+    </ClInclude>
+    <ClInclude Include="DataAnalyser.h">
+      <Filter>Header Files\DataAnalyser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MagnatekErrorReporterTester\MagnatekErrorReporterTester\ErrorType.h">
+      <Filter>Header Files\DataAnalyser</Filter>
+    </ClInclude>
+    <ClInclude Include="TubeEffectAnalyser.h">
+      <Filter>Header Files\DataAnalyser</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ExponentialBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Filter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Timer\Event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Timer\Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataAnalyser.cpp">
+      <Filter>Source Files\DataAnalyser</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashAnalyser.cpp">
+      <Filter>Source Files\DataAnalyser</Filter>
+    </ClCompile>
+    <ClCompile Include="TubeEffectAnalyser.cpp">
+      <Filter>Source Files\DataAnalyser</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
